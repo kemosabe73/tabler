@@ -1,0 +1,56 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Tabler!</h1>
+        <h2>Adding clones of a row to your table on a click of a button!</h2>
+        <br>
+        <h3><i>Requirements:</i></h3>
+        <ul>
+            <li>Jquery</li>
+            <li>Table must contain "< tbody >" tags. Rows will be cloned in them.</li>
+        </ul>
+        <br>
+        <h3><i>How to use:</i></h3>
+        <ul>
+            <li>
+                Add the class "tabler-button" to the button which will trigger the adding of a copied row to your table.
+            </li>
+            <li>
+                Add the class "tabler-table" to the table. The first row of this table will be copied every time "tabler-button" is clicked.
+            </li>
+            <li>
+                Click click!
+            </li>
+            <br>
+        </ul>
+        <h3><strong>Example</strong></h3>
+        <br>
+        <button class="tabler-button">Add Row!</button>
+        <table class="tabler-table">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Gender
+                    </th>
+                    <th>
+                        Age
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input id="test" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+        </ul>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="tabler.js"></script>
+    </body>
+</html>
